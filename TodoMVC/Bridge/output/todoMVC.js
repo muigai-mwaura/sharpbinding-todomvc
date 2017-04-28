@@ -26,15 +26,15 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
                     return editingTodo.getDescription();
                 };
 
-                return HtmlUtils.HtmlUtil.header(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit$1("header"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [HtmlUtils.HtmlUtil.H1(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("todos"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0)), HtmlUtils.HtmlUtil.textBox(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit$1("new-todo"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, addTodo, void 0, function (e) {
-                    editingTodo.setDescription(HtmlUtils.HtmlUtil.value(e));
-                }, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyBool.op_Implicit(true), void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit(description), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("What needs to be done?"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, TodoMVC.Todo.op_Implicit(editingTodo)))]);
+                return SharpBindings.HtmlUtil.header(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit$1("header"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [SharpBindings.HtmlUtil.H1(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("todos"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0)), SharpBindings.HtmlUtil.textBox(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit$1("new-todo"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, addTodo, void 0, function (e) {
+                    editingTodo.setDescription(SharpBindings.HtmlUtil.value(e));
+                }, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyBool.op_Implicit(true), void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit(description), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("What needs to be done?"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, TodoMVC.Todo.op_Implicit(editingTodo)))]);
             },
             todoTemplate: function (removeTodo, urlTrigger, currentFilter) {
 
                 return function (item) {
 
-                    var isEditMode = new (HtmlUtils.Var$1(Boolean))(false);
+                    var isEditMode = new (SharpBindings.Var$1(Boolean))(false);
 
                     var submit = function (description) {
                         if (System.String.isNullOrWhiteSpace(description)) {
@@ -52,7 +52,7 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
                                 isEditMode.setValue(false);
                                 break;
                             case TodoMVC.App.ENTER_KEY: 
-                                submit(HtmlUtils.HtmlUtil.value(e));
+                                submit(SharpBindings.HtmlUtil.value(e));
                                 break;
                             default: 
                                 break;
@@ -61,13 +61,13 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
 
                     var onBlur = function (e) {
                         if (isEditMode.getValue()) {
-                            submit(HtmlUtils.HtmlUtil.value(e));
+                            submit(SharpBindings.HtmlUtil.value(e));
                         }
                     };
 
                     var onTriggerEdit = function (e) {
                         if (isEditMode.getValue()) {
-                            HtmlUtils.HtmlUtil.setValue(e, item.getDescription());
+                            SharpBindings.HtmlUtil.setValue(e, item.getDescription());
 
                             e.focus();
                         }
@@ -85,15 +85,15 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
                         return currentFilter.getValue().getIsHidden()(item) ? "hidden" : item.getIsCompleted() ? "completed" : isEditMode.getValue() ? "editing" : "";
                     };
 
-                    var itemClassWatch = urlTrigger.merge(TodoMVC.Todo.op_Implicit(item), HtmlUtils.Var$1(Boolean).op_Implicit(isEditMode));
+                    var itemClassWatch = urlTrigger.merge(TodoMVC.Todo.op_Implicit(item), SharpBindings.Var$1(Boolean).op_Implicit(isEditMode));
 
-                    return HtmlUtils.HtmlUtil.li(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit(itemClass), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, itemClassWatch), [HtmlUtils.HtmlUtil.div(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit$1("view"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [HtmlUtils.HtmlUtil.checkBox(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit$1("toggle"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, function (e) {
-                        item.setIsCompleted(HtmlUtils.HtmlUtil.isChecked(e));
-                    }, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyBool.op_Implicit$1(itemIsDone), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, TodoMVC.Todo.op_Implicit(item))), HtmlUtils.HtmlUtil.label(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, function (b) {
+                    return SharpBindings.HtmlUtil.li(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit(itemClass), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, itemClassWatch), [SharpBindings.HtmlUtil.div(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit$1("view"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [SharpBindings.HtmlUtil.checkBox(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit$1("toggle"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, function (e) {
+                        item.setIsCompleted(SharpBindings.HtmlUtil.isChecked(e));
+                    }, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyBool.op_Implicit$1(itemIsDone), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, TodoMVC.Todo.op_Implicit(item))), SharpBindings.HtmlUtil.label(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, function (b) {
                         isEditMode.setValue(true);
-                    }, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit(itemDescription), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, TodoMVC.Todo.op_Implicit(item))), HtmlUtils.HtmlUtil.button(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit$1("destroy"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, function (b) {
+                    }, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit(itemDescription), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, TodoMVC.Todo.op_Implicit(item))), SharpBindings.HtmlUtil.button(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit$1("destroy"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, function (b) {
                         removeTodo(item);
-                    }, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0))]), HtmlUtils.HtmlUtil.textBox(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit$1("edit"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, onBlur, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, onKeyDown, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyBool.op_Implicit(false), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.Var$1(Boolean).op_Implicit(isEditMode), onTriggerEdit, void 0))]);
+                    }, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0))]), SharpBindings.HtmlUtil.textBox(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit$1("edit"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, onBlur, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, onKeyDown, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyBool.op_Implicit(false), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.Var$1(Boolean).op_Implicit(isEditMode), onTriggerEdit, void 0))]);
                 };
             },
             mainSection: function (todos, activeCount, todoTemplate) {
@@ -113,9 +113,9 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
                     return todos.getCount() === 0 ? "hidden" : "main";
                 };
 
-                return HtmlUtils.HtmlUtil.section(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit(shouldShowMain), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos)), [HtmlUtils.HtmlUtil.checkBox(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit$1("toggle-all"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, function (e) {
-                    toggleAll(HtmlUtils.HtmlUtil.isChecked(e));
-                }, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyBool.op_Implicit$1(noActiveTodos), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos))), HtmlUtils.HtmlUtil.label(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("Mark all as complete"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("toggle-all"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0)), HtmlUtils.HtmlUtil.ul(TodoMVC.App.__(TodoMVC.Todo, HtmlUtils.AnyString.op_Implicit$1("todo-list"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, todos, todoTemplate))]);
+                return SharpBindings.HtmlUtil.section(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit(shouldShowMain), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos)), [SharpBindings.HtmlUtil.checkBox(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit$1("toggle-all"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, function (e) {
+                    toggleAll(SharpBindings.HtmlUtil.isChecked(e));
+                }, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyBool.op_Implicit$1(noActiveTodos), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos))), SharpBindings.HtmlUtil.label(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("Mark all as complete"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("toggle-all"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0)), SharpBindings.HtmlUtil.ul(TodoMVC.App.__(TodoMVC.Todo, SharpBindings.AnyString.op_Implicit$1("todo-list"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, todos, todoTemplate))]);
             },
             footerSection: function (todos, activeCount, filters, urlTrigger) {
                 var shouldShowFooter = function () {
@@ -142,9 +142,9 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
 
                 var selectedAnchor = $asm.$.TodoMVC.App.f2;
 
-                return HtmlUtils.HtmlUtil.footer(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit(shouldShowFooter), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos)), [HtmlUtils.HtmlUtil.span(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit$1("todo-count"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [HtmlUtils.HtmlUtil.strong(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit(numberActive), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos))), HtmlUtils.HtmlUtil.span(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit(itemsLeft), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos)))]), HtmlUtils.HtmlUtil.ul(TodoMVC.App.__(TodoMVC.FilterUrl, HtmlUtils.AnyString.op_Implicit$1("filters"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, filters, function (f) {
-                    return HtmlUtils.HtmlUtil.li(null, [HtmlUtils.HtmlUtil.a(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit(selectedAnchor(f)), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1(f.getHash()), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1(f.getText()), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, urlTrigger))]);
-                })), HtmlUtils.HtmlUtil.button(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit(shouldShowClearButton), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, clearCompleted, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("Clear Completed"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos)))]);
+                return SharpBindings.HtmlUtil.footer(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit(shouldShowFooter), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos)), [SharpBindings.HtmlUtil.span(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit$1("todo-count"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [SharpBindings.HtmlUtil.strong(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit(numberActive), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos))), SharpBindings.HtmlUtil.span(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit(itemsLeft), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos)))]), SharpBindings.HtmlUtil.ul(TodoMVC.App.__(TodoMVC.FilterUrl, SharpBindings.AnyString.op_Implicit$1("filters"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, filters, function (f) {
+                    return SharpBindings.HtmlUtil.li(null, [SharpBindings.HtmlUtil.a(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit(selectedAnchor(f)), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1(f.getHash()), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1(f.getText()), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, urlTrigger))]);
+                })), SharpBindings.HtmlUtil.button(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit(shouldShowClearButton), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, clearCompleted, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("Clear Completed"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.ObservableCollection$1(TodoMVC.Todo).op_Implicit(todos)))]);
             },
             __$1: function (className, id, scrollLeft, scrollTop, accessKey, lang, tabIndex, title, onCopy, onCut, onPaste, onAbort, onBlur, onError, onFocus, onCancel, onCanPlay, onCanPlayThrough, onChange, onClick, onClose, onContextMenu, onCueChange, onDblClick, onDrag, onDragEnd, onDragEnter, onDragExit, onDragLeave, onDragOver, onDragStart, onDrop, onDurationChange, onEmptied, onEnded, onInput, onInvalid, onKeyDown, onKeyPress, onKeyUp, onLoad, onLoadedData, onLoadedMetaData, onLoadStart, onMouseDown, onMouseEnter, onMouseLeave, onMouseMove, onMouseOut, onMouseOver, onMouseUp, onMouseWheel, onPause, onPlay, onPlaying, onProgress, onRateChange, onReset, onScroll, onSeeked, onSeeking, onSelect, onShow, onSort, onStalled, onSubmit, onSuspend, onTimeUpdate, onVolumeChange, onWaiting, onTouchStart, onTouchEnd, onTouchMove, onTouchEnter, onTouchLeave, onTouchCancel, charset, coords, download, hash, host, hostname, href, hreflang, media, name, password, pathname, port, protocol, rel, rev, search, shape, target, text, type, username, autoFocus, disabled, formAction, formEncType, formMethod, formNoValidate, formTarget, buttonType, value, acceptCharset, action, autoComplete, encoding, enctype, method, noValidate, crossOrigin, imageHeight, isMap, src, srcSet, useMap, imageWidth, accept, alt, autoSave, checked_, defaultChecked, defaultValue, indeterminate, max, maxLength, min, multiple, pattern, placeholder, readOnly, required, selectionDirection, selectionEnd, selectionStart, step, inputType, htmlFor, allowFullScreen, frameBorder, iFrameHeight, longDesc, iFrameMarginHeight, iFrameMarginWidth, scrolling, seamless, srcDoc, iFrameWidth, label, defaultSelected, disable, selected, selectedIndex, size, cols, rows, wrap, span, colSpan, rowSpan, cellIndex, abbr, canvasWidth, canvasHeight, caption, tHead, tFoot, trigger, onTrigger, watch) {
                 if (className === void 0) { className = null; }
@@ -321,44 +321,44 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
                 if (trigger === void 0) { trigger = null; }
                 if (onTrigger === void 0) { onTrigger = null; }
                 if (watch === void 0) { watch = null; }
-                var a = new (HtmlUtils.Attributes$1(System.ComponentModel.INotifyPropertyChanged))();
+                var a = new (SharpBindings.Attributes$1(System.ComponentModel.INotifyPropertyChanged))();
 
-                var na = HtmlUtils.HtmlUtil.toObservable(HtmlUtils.NoNotification.instance);
+                var na = SharpBindings.HtmlUtil.toObservable(SharpBindings.NoNotification.instance);
 
                 if (className != null) {
-                    a.setClassName(className.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setClassName(className.getIsFirst() ? new SharpBindings.Cell(function () {
                         return className.getFirst();
-                    }, na) : new HtmlUtils.Cell(className.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(className.getSecond(), watch));
                 }
                 if (id != null) {
-                    a.setId(id.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setId(id.getIsFirst() ? new SharpBindings.Cell(function () {
                         return id.getFirst();
-                    }, na) : new HtmlUtils.Cell(id.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(id.getSecond(), watch));
                 }
                 if (canvasWidth != null) {
-                    a.setCanvasWidth(canvasWidth.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCanvasWidth(canvasWidth.getIsFirst() ? new SharpBindings.Cell(function () {
                         return canvasWidth.getFirst();
-                    }, na) : new HtmlUtils.Cell(canvasWidth.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(canvasWidth.getSecond(), watch));
                 }
                 if (canvasHeight != null) {
-                    a.setCanvasHeight(canvasHeight.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCanvasHeight(canvasHeight.getIsFirst() ? new SharpBindings.Cell(function () {
                         return canvasHeight.getFirst();
-                    }, na) : new HtmlUtils.Cell(canvasHeight.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(canvasHeight.getSecond(), watch));
                 }
                 if (scrollLeft != null) {
-                    a.setScrollLeft(scrollLeft.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setScrollLeft(scrollLeft.getIsFirst() ? new SharpBindings.Cell(function () {
                         return scrollLeft.getFirst();
-                    }, na) : new HtmlUtils.Cell(scrollLeft.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(scrollLeft.getSecond(), watch));
                 }
                 if (scrollTop != null) {
-                    a.setScrollTop(scrollTop.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setScrollTop(scrollTop.getIsFirst() ? new SharpBindings.Cell(function () {
                         return scrollTop.getFirst();
-                    }, na) : new HtmlUtils.Cell(scrollTop.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(scrollTop.getSecond(), watch));
                 }
                 if (accessKey != null) {
-                    a.setAccessKey(accessKey.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAccessKey(accessKey.getIsFirst() ? new SharpBindings.Cell(function () {
                         return accessKey.getFirst();
-                    }, na) : new HtmlUtils.Cell(accessKey.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(accessKey.getSecond(), watch));
                 }
                 //if (contentEditable != null)
                 //{
@@ -369,19 +369,19 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
                 //    a.Dir = dir.IsFirst ? new Cell(() => dir.First, na) : new Cell((Func<object>)(object)dir.Second, watch);
                 //}
                 if (lang != null) {
-                    a.setLang(lang.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setLang(lang.getIsFirst() ? new SharpBindings.Cell(function () {
                         return lang.getFirst();
-                    }, na) : new HtmlUtils.Cell(lang.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(lang.getSecond(), watch));
                 }
                 if (tabIndex != null) {
-                    a.setTabIndex(tabIndex.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setTabIndex(tabIndex.getIsFirst() ? new SharpBindings.Cell(function () {
                         return tabIndex.getFirst();
-                    }, na) : new HtmlUtils.Cell(tabIndex.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(tabIndex.getSecond(), watch));
                 }
                 if (title != null) {
-                    a.setTitle(title.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setTitle(title.getIsFirst() ? new SharpBindings.Cell(function () {
                         return title.getFirst();
-                    }, na) : new HtmlUtils.Cell(title.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(title.getSecond(), watch));
                 }
                 a.setOnCopy(onCopy);
                 a.setOnCut(onCut);
@@ -452,477 +452,477 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
                 a.setOnTouchLeave(onTouchLeave);
                 a.setOnTouchCancel(onTouchCancel);
                 if (charset != null) {
-                    a.setCharset(charset.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCharset(charset.getIsFirst() ? new SharpBindings.Cell(function () {
                         return charset.getFirst();
-                    }, na) : new HtmlUtils.Cell(charset.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(charset.getSecond(), watch));
                 }
                 if (coords != null) {
-                    a.setCoords(coords.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCoords(coords.getIsFirst() ? new SharpBindings.Cell(function () {
                         return coords.getFirst();
-                    }, na) : new HtmlUtils.Cell(coords.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(coords.getSecond(), watch));
                 }
                 if (download != null) {
-                    a.setDownload(download.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDownload(download.getIsFirst() ? new SharpBindings.Cell(function () {
                         return download.getFirst();
-                    }, na) : new HtmlUtils.Cell(download.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(download.getSecond(), watch));
                 }
                 if (hash != null) {
-                    a.setHash(hash.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHash(hash.getIsFirst() ? new SharpBindings.Cell(function () {
                         return hash.getFirst();
-                    }, na) : new HtmlUtils.Cell(hash.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(hash.getSecond(), watch));
                 }
                 if (host != null) {
-                    a.setHost(host.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHost(host.getIsFirst() ? new SharpBindings.Cell(function () {
                         return host.getFirst();
-                    }, na) : new HtmlUtils.Cell(host.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(host.getSecond(), watch));
                 }
                 if (hostname != null) {
-                    a.setHostname(hostname.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHostname(hostname.getIsFirst() ? new SharpBindings.Cell(function () {
                         return hostname.getFirst();
-                    }, na) : new HtmlUtils.Cell(hostname.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(hostname.getSecond(), watch));
                 }
                 if (href != null) {
-                    a.setHref(href.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHref(href.getIsFirst() ? new SharpBindings.Cell(function () {
                         return href.getFirst();
-                    }, na) : new HtmlUtils.Cell(href.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(href.getSecond(), watch));
                 }
                 if (hreflang != null) {
-                    a.setHreflang(hreflang.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHreflang(hreflang.getIsFirst() ? new SharpBindings.Cell(function () {
                         return hreflang.getFirst();
-                    }, na) : new HtmlUtils.Cell(hreflang.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(hreflang.getSecond(), watch));
                 }
                 if (media != null) {
-                    a.setMedia(media.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMedia(media.getIsFirst() ? new SharpBindings.Cell(function () {
                         return media.getFirst();
-                    }, na) : new HtmlUtils.Cell(media.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(media.getSecond(), watch));
                 }
                 if (name != null) {
-                    a.setName(name.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setName(name.getIsFirst() ? new SharpBindings.Cell(function () {
                         return name.getFirst();
-                    }, na) : new HtmlUtils.Cell(name.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(name.getSecond(), watch));
                 }
                 if (password != null) {
-                    a.setPassword(password.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setPassword(password.getIsFirst() ? new SharpBindings.Cell(function () {
                         return password.getFirst();
-                    }, na) : new HtmlUtils.Cell(password.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(password.getSecond(), watch));
                 }
                 if (pathname != null) {
-                    a.setPathname(pathname.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setPathname(pathname.getIsFirst() ? new SharpBindings.Cell(function () {
                         return pathname.getFirst();
-                    }, na) : new HtmlUtils.Cell(pathname.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(pathname.getSecond(), watch));
                 }
                 if (port != null) {
-                    a.setPort(port.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setPort(port.getIsFirst() ? new SharpBindings.Cell(function () {
                         return port.getFirst();
-                    }, na) : new HtmlUtils.Cell(port.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(port.getSecond(), watch));
                 }
                 if (protocol != null) {
-                    a.setProtocol(protocol.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setProtocol(protocol.getIsFirst() ? new SharpBindings.Cell(function () {
                         return protocol.getFirst();
-                    }, na) : new HtmlUtils.Cell(protocol.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(protocol.getSecond(), watch));
                 }
                 if (rel != null) {
-                    a.setRel(rel.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setRel(rel.getIsFirst() ? new SharpBindings.Cell(function () {
                         return rel.getFirst();
-                    }, na) : new HtmlUtils.Cell(rel.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(rel.getSecond(), watch));
                 }
                 if (rev != null) {
-                    a.setRev(rev.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setRev(rev.getIsFirst() ? new SharpBindings.Cell(function () {
                         return rev.getFirst();
-                    }, na) : new HtmlUtils.Cell(rev.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(rev.getSecond(), watch));
                 }
                 if (search != null) {
-                    a.setSearch(search.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSearch(search.getIsFirst() ? new SharpBindings.Cell(function () {
                         return search.getFirst();
-                    }, na) : new HtmlUtils.Cell(search.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(search.getSecond(), watch));
                 }
                 //if (searchParams != null)
                 //{
                 //    a.SearchParams = searchParams.IsFirst ? new Cell(() => searchParams.First, na) : new Cell((Func<object>)(object)searchParams.Second, watch);
                 //}
                 if (shape != null) {
-                    a.setShape(shape.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setShape(shape.getIsFirst() ? new SharpBindings.Cell(function () {
                         return shape.getFirst();
-                    }, na) : new HtmlUtils.Cell(shape.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(shape.getSecond(), watch));
                 }
                 if (target != null) {
-                    a.setTarget(target.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setTarget(target.getIsFirst() ? new SharpBindings.Cell(function () {
                         return target.getFirst();
-                    }, na) : new HtmlUtils.Cell(target.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(target.getSecond(), watch));
                 }
                 if (text != null) {
-                    a.setText(text.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setText(text.getIsFirst() ? new SharpBindings.Cell(function () {
                         return text.getFirst();
-                    }, na) : new HtmlUtils.Cell(text.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(text.getSecond(), watch));
                 }
                 if (type != null) {
-                    a.setType(type.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setType(type.getIsFirst() ? new SharpBindings.Cell(function () {
                         return type.getFirst();
-                    }, na) : new HtmlUtils.Cell(type.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(type.getSecond(), watch));
                 }
                 if (username != null) {
-                    a.setUsername(username.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setUsername(username.getIsFirst() ? new SharpBindings.Cell(function () {
                         return username.getFirst();
-                    }, na) : new HtmlUtils.Cell(username.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(username.getSecond(), watch));
                 }
                 if (autoFocus != null) {
-                    a.setAutoFocus(autoFocus.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAutoFocus(autoFocus.getIsFirst() ? new SharpBindings.Cell(function () {
                         return autoFocus.getFirst();
-                    }, na) : new HtmlUtils.Cell(autoFocus.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(autoFocus.getSecond(), watch));
                 }
                 if (disabled != null) {
-                    a.setDisabled(disabled.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDisabled(disabled.getIsFirst() ? new SharpBindings.Cell(function () {
                         return disabled.getFirst();
-                    }, na) : new HtmlUtils.Cell(disabled.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(disabled.getSecond(), watch));
                 }
                 if (formAction != null) {
-                    a.setFormAction(formAction.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFormAction(formAction.getIsFirst() ? new SharpBindings.Cell(function () {
                         return formAction.getFirst();
-                    }, na) : new HtmlUtils.Cell(formAction.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(formAction.getSecond(), watch));
                 }
                 if (formEncType != null) {
-                    a.setFormEncType(formEncType.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFormEncType(formEncType.getIsFirst() ? new SharpBindings.Cell(function () {
                         return formEncType.getFirst();
-                    }, na) : new HtmlUtils.Cell(formEncType.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(formEncType.getSecond(), watch));
                 }
                 if (formMethod != null) {
-                    a.setFormMethod(formMethod.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFormMethod(formMethod.getIsFirst() ? new SharpBindings.Cell(function () {
                         return formMethod.getFirst();
-                    }, na) : new HtmlUtils.Cell(formMethod.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(formMethod.getSecond(), watch));
                 }
                 if (formNoValidate != null) {
-                    a.setFormNoValidate(formNoValidate.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFormNoValidate(formNoValidate.getIsFirst() ? new SharpBindings.Cell(function () {
                         return formNoValidate.getFirst();
-                    }, na) : new HtmlUtils.Cell(formNoValidate.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(formNoValidate.getSecond(), watch));
                 }
                 if (formTarget != null) {
-                    a.setFormTarget(formTarget.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFormTarget(formTarget.getIsFirst() ? new SharpBindings.Cell(function () {
                         return formTarget.getFirst();
-                    }, na) : new HtmlUtils.Cell(formTarget.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(formTarget.getSecond(), watch));
                 }
                 if (buttonType != null) {
-                    a.setButtonType(buttonType.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setButtonType(buttonType.getIsFirst() ? new SharpBindings.Cell(function () {
                         return buttonType.getFirst();
-                    }, na) : new HtmlUtils.Cell(buttonType.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(buttonType.getSecond(), watch));
                 }
                 if (value != null) {
-                    a.setValue(value.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setValue(value.getIsFirst() ? new SharpBindings.Cell(function () {
                         return value.getFirst();
-                    }, na) : new HtmlUtils.Cell(value.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(value.getSecond(), watch));
                 }
                 if (acceptCharset != null) {
-                    a.setAcceptCharset(acceptCharset.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAcceptCharset(acceptCharset.getIsFirst() ? new SharpBindings.Cell(function () {
                         return acceptCharset.getFirst();
-                    }, na) : new HtmlUtils.Cell(acceptCharset.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(acceptCharset.getSecond(), watch));
                 }
                 if (action != null) {
-                    a.setAction(action.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAction(action.getIsFirst() ? new SharpBindings.Cell(function () {
                         return action.getFirst();
-                    }, na) : new HtmlUtils.Cell(action.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(action.getSecond(), watch));
                 }
                 if (autoComplete != null) {
-                    a.setAutoComplete(autoComplete.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAutoComplete(autoComplete.getIsFirst() ? new SharpBindings.Cell(function () {
                         return autoComplete.getFirst();
-                    }, na) : new HtmlUtils.Cell(autoComplete.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(autoComplete.getSecond(), watch));
                 }
                 if (encoding != null) {
-                    a.setEncoding(encoding.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setEncoding(encoding.getIsFirst() ? new SharpBindings.Cell(function () {
                         return encoding.getFirst();
-                    }, na) : new HtmlUtils.Cell(encoding.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(encoding.getSecond(), watch));
                 }
                 if (enctype != null) {
-                    a.setEnctype(enctype.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setEnctype(enctype.getIsFirst() ? new SharpBindings.Cell(function () {
                         return enctype.getFirst();
-                    }, na) : new HtmlUtils.Cell(enctype.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(enctype.getSecond(), watch));
                 }
                 if (method != null) {
-                    a.setMethod(method.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMethod(method.getIsFirst() ? new SharpBindings.Cell(function () {
                         return method.getFirst();
-                    }, na) : new HtmlUtils.Cell(method.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(method.getSecond(), watch));
                 }
                 if (noValidate != null) {
-                    a.setNoValidate(noValidate.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setNoValidate(noValidate.getIsFirst() ? new SharpBindings.Cell(function () {
                         return noValidate.getFirst();
-                    }, na) : new HtmlUtils.Cell(noValidate.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(noValidate.getSecond(), watch));
                 }
                 if (crossOrigin != null) {
-                    a.setCrossOrigin(crossOrigin.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCrossOrigin(crossOrigin.getIsFirst() ? new SharpBindings.Cell(function () {
                         return crossOrigin.getFirst();
-                    }, na) : new HtmlUtils.Cell(crossOrigin.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(crossOrigin.getSecond(), watch));
                 }
                 if (imageHeight != null) {
-                    a.setImageHeight(imageHeight.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setImageHeight(imageHeight.getIsFirst() ? new SharpBindings.Cell(function () {
                         return imageHeight.getFirst();
-                    }, na) : new HtmlUtils.Cell(imageHeight.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(imageHeight.getSecond(), watch));
                 }
                 if (isMap != null) {
-                    a.setIsMap(isMap.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIsMap(isMap.getIsFirst() ? new SharpBindings.Cell(function () {
                         return isMap.getFirst();
-                    }, na) : new HtmlUtils.Cell(isMap.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(isMap.getSecond(), watch));
                 }
                 if (src != null) {
-                    a.setSrc(src.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSrc(src.getIsFirst() ? new SharpBindings.Cell(function () {
                         return src.getFirst();
-                    }, na) : new HtmlUtils.Cell(src.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(src.getSecond(), watch));
                 }
                 if (srcSet != null) {
-                    a.setSrcSet(srcSet.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSrcSet(srcSet.getIsFirst() ? new SharpBindings.Cell(function () {
                         return srcSet.getFirst();
-                    }, na) : new HtmlUtils.Cell(srcSet.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(srcSet.getSecond(), watch));
                 }
                 if (useMap != null) {
-                    a.setUseMap(useMap.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setUseMap(useMap.getIsFirst() ? new SharpBindings.Cell(function () {
                         return useMap.getFirst();
-                    }, na) : new HtmlUtils.Cell(useMap.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(useMap.getSecond(), watch));
                 }
                 if (imageWidth != null) {
-                    a.setImageWidth(imageWidth.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setImageWidth(imageWidth.getIsFirst() ? new SharpBindings.Cell(function () {
                         return imageWidth.getFirst();
-                    }, na) : new HtmlUtils.Cell(imageWidth.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(imageWidth.getSecond(), watch));
                 }
                 if (accept != null) {
-                    a.setAccept(accept.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAccept(accept.getIsFirst() ? new SharpBindings.Cell(function () {
                         return accept.getFirst();
-                    }, na) : new HtmlUtils.Cell(accept.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(accept.getSecond(), watch));
                 }
                 if (alt != null) {
-                    a.setAlt(alt.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAlt(alt.getIsFirst() ? new SharpBindings.Cell(function () {
                         return alt.getFirst();
-                    }, na) : new HtmlUtils.Cell(alt.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(alt.getSecond(), watch));
                 }
                 if (autoSave != null) {
-                    a.setAutoSave(autoSave.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAutoSave(autoSave.getIsFirst() ? new SharpBindings.Cell(function () {
                         return autoSave.getFirst();
-                    }, na) : new HtmlUtils.Cell(autoSave.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(autoSave.getSecond(), watch));
                 }
                 if (checked_ != null) {
-                    a.setChecked(checked_.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setChecked(checked_.getIsFirst() ? new SharpBindings.Cell(function () {
                         return checked_.getFirst();
-                    }, na) : new HtmlUtils.Cell(checked_.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(checked_.getSecond(), watch));
                 }
                 if (defaultChecked != null) {
-                    a.setDefaultChecked(defaultChecked.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDefaultChecked(defaultChecked.getIsFirst() ? new SharpBindings.Cell(function () {
                         return defaultChecked.getFirst();
-                    }, na) : new HtmlUtils.Cell(defaultChecked.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(defaultChecked.getSecond(), watch));
                 }
                 if (defaultValue != null) {
-                    a.setDefaultValue(defaultValue.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDefaultValue(defaultValue.getIsFirst() ? new SharpBindings.Cell(function () {
                         return defaultValue.getFirst();
-                    }, na) : new HtmlUtils.Cell(defaultValue.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(defaultValue.getSecond(), watch));
                 }
                 if (indeterminate != null) {
-                    a.setIndeterminate(indeterminate.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIndeterminate(indeterminate.getIsFirst() ? new SharpBindings.Cell(function () {
                         return indeterminate.getFirst();
-                    }, na) : new HtmlUtils.Cell(indeterminate.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(indeterminate.getSecond(), watch));
                 }
                 //if (list != null)
                 //{
                 //    a.List = list.IsFirst ? new Cell(() => list.First, na) : new Cell((Func<object>)(object)list.Second, watch);
                 //}
                 if (max != null) {
-                    a.setMax(max.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMax(max.getIsFirst() ? new SharpBindings.Cell(function () {
                         return max.getFirst();
-                    }, na) : new HtmlUtils.Cell(max.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(max.getSecond(), watch));
                 }
                 if (maxLength != null) {
-                    a.setMaxLength(maxLength.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMaxLength(maxLength.getIsFirst() ? new SharpBindings.Cell(function () {
                         return maxLength.getFirst();
-                    }, na) : new HtmlUtils.Cell(maxLength.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(maxLength.getSecond(), watch));
                 }
                 if (min != null) {
-                    a.setMin(min.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMin(min.getIsFirst() ? new SharpBindings.Cell(function () {
                         return min.getFirst();
-                    }, na) : new HtmlUtils.Cell(min.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(min.getSecond(), watch));
                 }
                 if (multiple != null) {
-                    a.setMultiple(multiple.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMultiple(multiple.getIsFirst() ? new SharpBindings.Cell(function () {
                         return multiple.getFirst();
-                    }, na) : new HtmlUtils.Cell(multiple.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(multiple.getSecond(), watch));
                 }
                 if (pattern != null) {
-                    a.setPattern(pattern.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setPattern(pattern.getIsFirst() ? new SharpBindings.Cell(function () {
                         return pattern.getFirst();
-                    }, na) : new HtmlUtils.Cell(pattern.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(pattern.getSecond(), watch));
                 }
                 if (placeholder != null) {
-                    a.setPlaceholder(placeholder.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setPlaceholder(placeholder.getIsFirst() ? new SharpBindings.Cell(function () {
                         return placeholder.getFirst();
-                    }, na) : new HtmlUtils.Cell(placeholder.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(placeholder.getSecond(), watch));
                 }
                 if (readOnly != null) {
-                    a.setReadOnly(readOnly.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setReadOnly(readOnly.getIsFirst() ? new SharpBindings.Cell(function () {
                         return readOnly.getFirst();
-                    }, na) : new HtmlUtils.Cell(readOnly.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(readOnly.getSecond(), watch));
                 }
                 if (required != null) {
-                    a.setRequired(required.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setRequired(required.getIsFirst() ? new SharpBindings.Cell(function () {
                         return required.getFirst();
-                    }, na) : new HtmlUtils.Cell(required.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(required.getSecond(), watch));
                 }
                 if (selectionDirection != null) {
-                    a.setSelectionDirection(selectionDirection.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSelectionDirection(selectionDirection.getIsFirst() ? new SharpBindings.Cell(function () {
                         return selectionDirection.getFirst();
-                    }, na) : new HtmlUtils.Cell(selectionDirection.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(selectionDirection.getSecond(), watch));
                 }
                 if (selectionEnd != null) {
-                    a.setSelectionEnd(selectionEnd.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSelectionEnd(selectionEnd.getIsFirst() ? new SharpBindings.Cell(function () {
                         return selectionEnd.getFirst();
-                    }, na) : new HtmlUtils.Cell(selectionEnd.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(selectionEnd.getSecond(), watch));
                 }
                 if (selectionStart != null) {
-                    a.setSelectionStart(selectionStart.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSelectionStart(selectionStart.getIsFirst() ? new SharpBindings.Cell(function () {
                         return selectionStart.getFirst();
-                    }, na) : new HtmlUtils.Cell(selectionStart.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(selectionStart.getSecond(), watch));
                 }
                 if (step != null) {
-                    a.setStep(step.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setStep(step.getIsFirst() ? new SharpBindings.Cell(function () {
                         return step.getFirst();
-                    }, na) : new HtmlUtils.Cell(step.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(step.getSecond(), watch));
                 }
                 if (inputType != null) {
-                    a.setInputType(inputType.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setInputType(inputType.getIsFirst() ? new SharpBindings.Cell(function () {
                         return inputType.getFirst();
-                    }, na) : new HtmlUtils.Cell(inputType.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(inputType.getSecond(), watch));
                 }
                 if (htmlFor != null) {
-                    a.setHtmlFor(htmlFor.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHtmlFor(htmlFor.getIsFirst() ? new SharpBindings.Cell(function () {
                         return htmlFor.getFirst();
-                    }, na) : new HtmlUtils.Cell(htmlFor.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(htmlFor.getSecond(), watch));
                 }
                 if (allowFullScreen != null) {
-                    a.setAllowFullScreen(allowFullScreen.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAllowFullScreen(allowFullScreen.getIsFirst() ? new SharpBindings.Cell(function () {
                         return allowFullScreen.getFirst();
-                    }, na) : new HtmlUtils.Cell(allowFullScreen.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(allowFullScreen.getSecond(), watch));
                 }
                 if (frameBorder != null) {
-                    a.setFrameBorder(frameBorder.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFrameBorder(frameBorder.getIsFirst() ? new SharpBindings.Cell(function () {
                         return frameBorder.getFirst();
-                    }, na) : new HtmlUtils.Cell(frameBorder.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(frameBorder.getSecond(), watch));
                 }
                 if (iFrameHeight != null) {
-                    a.setIFrameHeight(iFrameHeight.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIFrameHeight(iFrameHeight.getIsFirst() ? new SharpBindings.Cell(function () {
                         return iFrameHeight.getFirst();
-                    }, na) : new HtmlUtils.Cell(iFrameHeight.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(iFrameHeight.getSecond(), watch));
                 }
                 if (longDesc != null) {
-                    a.setLongDesc(longDesc.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setLongDesc(longDesc.getIsFirst() ? new SharpBindings.Cell(function () {
                         return longDesc.getFirst();
-                    }, na) : new HtmlUtils.Cell(longDesc.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(longDesc.getSecond(), watch));
                 }
                 if (iFrameMarginHeight != null) {
-                    a.setIFrameMarginHeight(iFrameMarginHeight.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIFrameMarginHeight(iFrameMarginHeight.getIsFirst() ? new SharpBindings.Cell(function () {
                         return iFrameMarginHeight.getFirst();
-                    }, na) : new HtmlUtils.Cell(iFrameMarginHeight.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(iFrameMarginHeight.getSecond(), watch));
                 }
                 if (iFrameMarginWidth != null) {
-                    a.setIFrameMarginWidth(iFrameMarginWidth.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIFrameMarginWidth(iFrameMarginWidth.getIsFirst() ? new SharpBindings.Cell(function () {
                         return iFrameMarginWidth.getFirst();
-                    }, na) : new HtmlUtils.Cell(iFrameMarginWidth.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(iFrameMarginWidth.getSecond(), watch));
                 }
                 if (scrolling != null) {
-                    a.setScrolling(scrolling.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setScrolling(scrolling.getIsFirst() ? new SharpBindings.Cell(function () {
                         return scrolling.getFirst();
-                    }, na) : new HtmlUtils.Cell(scrolling.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(scrolling.getSecond(), watch));
                 }
                 if (seamless != null) {
-                    a.setSeamless(seamless.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSeamless(seamless.getIsFirst() ? new SharpBindings.Cell(function () {
                         return seamless.getFirst();
-                    }, na) : new HtmlUtils.Cell(seamless.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(seamless.getSecond(), watch));
                 }
                 if (srcDoc != null) {
-                    a.setSrcDoc(srcDoc.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSrcDoc(srcDoc.getIsFirst() ? new SharpBindings.Cell(function () {
                         return srcDoc.getFirst();
-                    }, na) : new HtmlUtils.Cell(srcDoc.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(srcDoc.getSecond(), watch));
                 }
                 if (iFrameWidth != null) {
-                    a.setIFrameWidth(iFrameWidth.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIFrameWidth(iFrameWidth.getIsFirst() ? new SharpBindings.Cell(function () {
                         return iFrameWidth.getFirst();
-                    }, na) : new HtmlUtils.Cell(iFrameWidth.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(iFrameWidth.getSecond(), watch));
                 }
                 if (label != null) {
-                    a.setLabel(label.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setLabel(label.getIsFirst() ? new SharpBindings.Cell(function () {
                         return label.getFirst();
-                    }, na) : new HtmlUtils.Cell(label.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(label.getSecond(), watch));
                 }
                 if (defaultSelected != null) {
-                    a.setDefaultSelected(defaultSelected.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDefaultSelected(defaultSelected.getIsFirst() ? new SharpBindings.Cell(function () {
                         return defaultSelected.getFirst();
-                    }, na) : new HtmlUtils.Cell(defaultSelected.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(defaultSelected.getSecond(), watch));
                 }
                 if (disable != null) {
-                    a.setDisable(disable.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDisable(disable.getIsFirst() ? new SharpBindings.Cell(function () {
                         return disable.getFirst();
-                    }, na) : new HtmlUtils.Cell(disable.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(disable.getSecond(), watch));
                 }
                 if (selected != null) {
-                    a.setSelected(selected.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSelected(selected.getIsFirst() ? new SharpBindings.Cell(function () {
                         return selected.getFirst();
-                    }, na) : new HtmlUtils.Cell(selected.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(selected.getSecond(), watch));
                 }
                 if (selectedIndex != null) {
-                    a.setSelectedIndex(selectedIndex.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSelectedIndex(selectedIndex.getIsFirst() ? new SharpBindings.Cell(function () {
                         return selectedIndex.getFirst();
-                    }, na) : new HtmlUtils.Cell(selectedIndex.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(selectedIndex.getSecond(), watch));
                 }
                 if (size != null) {
-                    a.setSize(size.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSize(size.getIsFirst() ? new SharpBindings.Cell(function () {
                         return size.getFirst();
-                    }, na) : new HtmlUtils.Cell(size.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(size.getSecond(), watch));
                 }
                 if (cols != null) {
-                    a.setCols(cols.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCols(cols.getIsFirst() ? new SharpBindings.Cell(function () {
                         return cols.getFirst();
-                    }, na) : new HtmlUtils.Cell(cols.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(cols.getSecond(), watch));
                 }
                 if (rows != null) {
-                    a.setRows(rows.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setRows(rows.getIsFirst() ? new SharpBindings.Cell(function () {
                         return rows.getFirst();
-                    }, na) : new HtmlUtils.Cell(rows.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(rows.getSecond(), watch));
                 }
                 if (wrap != null) {
-                    a.setWrap(wrap.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setWrap(wrap.getIsFirst() ? new SharpBindings.Cell(function () {
                         return wrap.getFirst();
-                    }, na) : new HtmlUtils.Cell(wrap.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(wrap.getSecond(), watch));
                 }
                 if (span != null) {
-                    a.setSpan(span.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSpan(span.getIsFirst() ? new SharpBindings.Cell(function () {
                         return span.getFirst();
-                    }, na) : new HtmlUtils.Cell(span.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(span.getSecond(), watch));
                 }
                 if (colSpan != null) {
-                    a.setColSpan(colSpan.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setColSpan(colSpan.getIsFirst() ? new SharpBindings.Cell(function () {
                         return colSpan.getFirst();
-                    }, na) : new HtmlUtils.Cell(colSpan.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(colSpan.getSecond(), watch));
                 }
                 if (rowSpan != null) {
-                    a.setRowSpan(rowSpan.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setRowSpan(rowSpan.getIsFirst() ? new SharpBindings.Cell(function () {
                         return rowSpan.getFirst();
-                    }, na) : new HtmlUtils.Cell(rowSpan.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(rowSpan.getSecond(), watch));
                 }
                 if (cellIndex != null) {
-                    a.setCellIndex(cellIndex.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCellIndex(cellIndex.getIsFirst() ? new SharpBindings.Cell(function () {
                         return cellIndex.getFirst();
-                    }, na) : new HtmlUtils.Cell(cellIndex.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(cellIndex.getSecond(), watch));
                 }
                 if (abbr != null) {
-                    a.setAbbr(abbr.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAbbr(abbr.getIsFirst() ? new SharpBindings.Cell(function () {
                         return abbr.getFirst();
-                    }, na) : new HtmlUtils.Cell(abbr.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(abbr.getSecond(), watch));
                 }
                 if (caption != null) {
-                    a.setCaption(caption.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCaption(caption.getIsFirst() ? new SharpBindings.Cell(function () {
                         return caption.getFirst();
-                    }, na) : new HtmlUtils.Cell(caption.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(caption.getSecond(), watch));
                 }
                 if (tHead != null) {
-                    a.setTHead(tHead.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setTHead(tHead.getIsFirst() ? new SharpBindings.Cell(function () {
                         return tHead.getFirst();
-                    }, na) : new HtmlUtils.Cell(tHead.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(tHead.getSecond(), watch));
                 }
                 if (tFoot != null) {
-                    a.setTFoot(tFoot.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setTFoot(tFoot.getIsFirst() ? new SharpBindings.Cell(function () {
                         return tFoot.getFirst();
-                    }, na) : new HtmlUtils.Cell(tFoot.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(tFoot.getSecond(), watch));
                 }
 
                 a.setTrigger(trigger);
@@ -1106,38 +1106,38 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
                 if (watch === void 0) { watch = null; }
                 if (items === void 0) { items = null; }
                 if (template === void 0) { template = null; }
-                var a = new (HtmlUtils.Attributes$1(T))();
+                var a = new (SharpBindings.Attributes$1(T))();
 
                 a.setItems(items);
 
                 a.setTemplate(template);
 
-                var na = HtmlUtils.HtmlUtil.toObservable(HtmlUtils.NoNotification.instance);
+                var na = SharpBindings.HtmlUtil.toObservable(SharpBindings.NoNotification.instance);
 
                 if (className != null) {
-                    a.setClassName(className.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setClassName(className.getIsFirst() ? new SharpBindings.Cell(function () {
                         return className.getFirst();
-                    }, na) : new HtmlUtils.Cell(className.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(className.getSecond(), watch));
                 }
                 if (id != null) {
-                    a.setId(id.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setId(id.getIsFirst() ? new SharpBindings.Cell(function () {
                         return id.getFirst();
-                    }, na) : new HtmlUtils.Cell(id.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(id.getSecond(), watch));
                 }
                 if (scrollLeft != null) {
-                    a.setScrollLeft(scrollLeft.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setScrollLeft(scrollLeft.getIsFirst() ? new SharpBindings.Cell(function () {
                         return scrollLeft.getFirst();
-                    }, na) : new HtmlUtils.Cell(scrollLeft.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(scrollLeft.getSecond(), watch));
                 }
                 if (scrollTop != null) {
-                    a.setScrollTop(scrollTop.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setScrollTop(scrollTop.getIsFirst() ? new SharpBindings.Cell(function () {
                         return scrollTop.getFirst();
-                    }, na) : new HtmlUtils.Cell(scrollTop.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(scrollTop.getSecond(), watch));
                 }
                 if (accessKey != null) {
-                    a.setAccessKey(accessKey.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAccessKey(accessKey.getIsFirst() ? new SharpBindings.Cell(function () {
                         return accessKey.getFirst();
-                    }, na) : new HtmlUtils.Cell(accessKey.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(accessKey.getSecond(), watch));
                 }
                 //if (contentEditable != null)
                 //{
@@ -1148,19 +1148,19 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
                 //    a.Dir = dir.IsFirst ? new Cell(() => dir.First, na) : new Cell((Func<object>)(object)dir.Second, watch);
                 //}
                 if (lang != null) {
-                    a.setLang(lang.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setLang(lang.getIsFirst() ? new SharpBindings.Cell(function () {
                         return lang.getFirst();
-                    }, na) : new HtmlUtils.Cell(lang.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(lang.getSecond(), watch));
                 }
                 if (tabIndex != null) {
-                    a.setTabIndex(tabIndex.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setTabIndex(tabIndex.getIsFirst() ? new SharpBindings.Cell(function () {
                         return tabIndex.getFirst();
-                    }, na) : new HtmlUtils.Cell(tabIndex.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(tabIndex.getSecond(), watch));
                 }
                 if (title != null) {
-                    a.setTitle(title.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setTitle(title.getIsFirst() ? new SharpBindings.Cell(function () {
                         return title.getFirst();
-                    }, na) : new HtmlUtils.Cell(title.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(title.getSecond(), watch));
                 }
                 a.setOnCopy(onCopy);
                 a.setOnCut(onCut);
@@ -1231,477 +1231,477 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
                 a.setOnTouchLeave(onTouchLeave);
                 a.setOnTouchCancel(onTouchCancel);
                 if (charset != null) {
-                    a.setCharset(charset.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCharset(charset.getIsFirst() ? new SharpBindings.Cell(function () {
                         return charset.getFirst();
-                    }, na) : new HtmlUtils.Cell(charset.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(charset.getSecond(), watch));
                 }
                 if (coords != null) {
-                    a.setCoords(coords.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCoords(coords.getIsFirst() ? new SharpBindings.Cell(function () {
                         return coords.getFirst();
-                    }, na) : new HtmlUtils.Cell(coords.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(coords.getSecond(), watch));
                 }
                 if (download != null) {
-                    a.setDownload(download.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDownload(download.getIsFirst() ? new SharpBindings.Cell(function () {
                         return download.getFirst();
-                    }, na) : new HtmlUtils.Cell(download.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(download.getSecond(), watch));
                 }
                 if (hash != null) {
-                    a.setHash(hash.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHash(hash.getIsFirst() ? new SharpBindings.Cell(function () {
                         return hash.getFirst();
-                    }, na) : new HtmlUtils.Cell(hash.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(hash.getSecond(), watch));
                 }
                 if (host != null) {
-                    a.setHost(host.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHost(host.getIsFirst() ? new SharpBindings.Cell(function () {
                         return host.getFirst();
-                    }, na) : new HtmlUtils.Cell(host.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(host.getSecond(), watch));
                 }
                 if (hostname != null) {
-                    a.setHostname(hostname.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHostname(hostname.getIsFirst() ? new SharpBindings.Cell(function () {
                         return hostname.getFirst();
-                    }, na) : new HtmlUtils.Cell(hostname.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(hostname.getSecond(), watch));
                 }
                 if (href != null) {
-                    a.setHref(href.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHref(href.getIsFirst() ? new SharpBindings.Cell(function () {
                         return href.getFirst();
-                    }, na) : new HtmlUtils.Cell(href.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(href.getSecond(), watch));
                 }
                 if (hreflang != null) {
-                    a.setHreflang(hreflang.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHreflang(hreflang.getIsFirst() ? new SharpBindings.Cell(function () {
                         return hreflang.getFirst();
-                    }, na) : new HtmlUtils.Cell(hreflang.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(hreflang.getSecond(), watch));
                 }
                 if (media != null) {
-                    a.setMedia(media.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMedia(media.getIsFirst() ? new SharpBindings.Cell(function () {
                         return media.getFirst();
-                    }, na) : new HtmlUtils.Cell(media.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(media.getSecond(), watch));
                 }
                 if (name != null) {
-                    a.setName(name.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setName(name.getIsFirst() ? new SharpBindings.Cell(function () {
                         return name.getFirst();
-                    }, na) : new HtmlUtils.Cell(name.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(name.getSecond(), watch));
                 }
                 if (password != null) {
-                    a.setPassword(password.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setPassword(password.getIsFirst() ? new SharpBindings.Cell(function () {
                         return password.getFirst();
-                    }, na) : new HtmlUtils.Cell(password.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(password.getSecond(), watch));
                 }
                 if (pathname != null) {
-                    a.setPathname(pathname.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setPathname(pathname.getIsFirst() ? new SharpBindings.Cell(function () {
                         return pathname.getFirst();
-                    }, na) : new HtmlUtils.Cell(pathname.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(pathname.getSecond(), watch));
                 }
                 if (port != null) {
-                    a.setPort(port.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setPort(port.getIsFirst() ? new SharpBindings.Cell(function () {
                         return port.getFirst();
-                    }, na) : new HtmlUtils.Cell(port.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(port.getSecond(), watch));
                 }
                 if (protocol != null) {
-                    a.setProtocol(protocol.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setProtocol(protocol.getIsFirst() ? new SharpBindings.Cell(function () {
                         return protocol.getFirst();
-                    }, na) : new HtmlUtils.Cell(protocol.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(protocol.getSecond(), watch));
                 }
                 if (rel != null) {
-                    a.setRel(rel.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setRel(rel.getIsFirst() ? new SharpBindings.Cell(function () {
                         return rel.getFirst();
-                    }, na) : new HtmlUtils.Cell(rel.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(rel.getSecond(), watch));
                 }
                 if (rev != null) {
-                    a.setRev(rev.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setRev(rev.getIsFirst() ? new SharpBindings.Cell(function () {
                         return rev.getFirst();
-                    }, na) : new HtmlUtils.Cell(rev.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(rev.getSecond(), watch));
                 }
                 if (search != null) {
-                    a.setSearch(search.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSearch(search.getIsFirst() ? new SharpBindings.Cell(function () {
                         return search.getFirst();
-                    }, na) : new HtmlUtils.Cell(search.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(search.getSecond(), watch));
                 }
                 //if (searchParams != null)
                 //{
                 //    a.SearchParams = searchParams.IsFirst ? new Cell(() => searchParams.First, na) : new Cell((Func<object>)(object)searchParams.Second, watch);
                 //}
                 if (shape != null) {
-                    a.setShape(shape.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setShape(shape.getIsFirst() ? new SharpBindings.Cell(function () {
                         return shape.getFirst();
-                    }, na) : new HtmlUtils.Cell(shape.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(shape.getSecond(), watch));
                 }
                 if (target != null) {
-                    a.setTarget(target.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setTarget(target.getIsFirst() ? new SharpBindings.Cell(function () {
                         return target.getFirst();
-                    }, na) : new HtmlUtils.Cell(target.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(target.getSecond(), watch));
                 }
                 if (text != null) {
-                    a.setText(text.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setText(text.getIsFirst() ? new SharpBindings.Cell(function () {
                         return text.getFirst();
-                    }, na) : new HtmlUtils.Cell(text.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(text.getSecond(), watch));
                 }
                 if (type != null) {
-                    a.setType(type.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setType(type.getIsFirst() ? new SharpBindings.Cell(function () {
                         return type.getFirst();
-                    }, na) : new HtmlUtils.Cell(type.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(type.getSecond(), watch));
                 }
                 if (username != null) {
-                    a.setUsername(username.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setUsername(username.getIsFirst() ? new SharpBindings.Cell(function () {
                         return username.getFirst();
-                    }, na) : new HtmlUtils.Cell(username.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(username.getSecond(), watch));
                 }
                 if (autoFocus != null) {
-                    a.setAutoFocus(autoFocus.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAutoFocus(autoFocus.getIsFirst() ? new SharpBindings.Cell(function () {
                         return autoFocus.getFirst();
-                    }, na) : new HtmlUtils.Cell(autoFocus.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(autoFocus.getSecond(), watch));
                 }
                 if (disabled != null) {
-                    a.setDisabled(disabled.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDisabled(disabled.getIsFirst() ? new SharpBindings.Cell(function () {
                         return disabled.getFirst();
-                    }, na) : new HtmlUtils.Cell(disabled.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(disabled.getSecond(), watch));
                 }
                 if (formAction != null) {
-                    a.setFormAction(formAction.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFormAction(formAction.getIsFirst() ? new SharpBindings.Cell(function () {
                         return formAction.getFirst();
-                    }, na) : new HtmlUtils.Cell(formAction.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(formAction.getSecond(), watch));
                 }
                 if (formEncType != null) {
-                    a.setFormEncType(formEncType.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFormEncType(formEncType.getIsFirst() ? new SharpBindings.Cell(function () {
                         return formEncType.getFirst();
-                    }, na) : new HtmlUtils.Cell(formEncType.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(formEncType.getSecond(), watch));
                 }
                 if (formMethod != null) {
-                    a.setFormMethod(formMethod.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFormMethod(formMethod.getIsFirst() ? new SharpBindings.Cell(function () {
                         return formMethod.getFirst();
-                    }, na) : new HtmlUtils.Cell(formMethod.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(formMethod.getSecond(), watch));
                 }
                 if (formNoValidate != null) {
-                    a.setFormNoValidate(formNoValidate.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFormNoValidate(formNoValidate.getIsFirst() ? new SharpBindings.Cell(function () {
                         return formNoValidate.getFirst();
-                    }, na) : new HtmlUtils.Cell(formNoValidate.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(formNoValidate.getSecond(), watch));
                 }
                 if (formTarget != null) {
-                    a.setFormTarget(formTarget.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFormTarget(formTarget.getIsFirst() ? new SharpBindings.Cell(function () {
                         return formTarget.getFirst();
-                    }, na) : new HtmlUtils.Cell(formTarget.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(formTarget.getSecond(), watch));
                 }
                 if (buttonType != null) {
-                    a.setButtonType(buttonType.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setButtonType(buttonType.getIsFirst() ? new SharpBindings.Cell(function () {
                         return buttonType.getFirst();
-                    }, na) : new HtmlUtils.Cell(buttonType.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(buttonType.getSecond(), watch));
                 }
                 if (value != null) {
-                    a.setValue(value.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setValue(value.getIsFirst() ? new SharpBindings.Cell(function () {
                         return value.getFirst();
-                    }, na) : new HtmlUtils.Cell(value.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(value.getSecond(), watch));
                 }
                 if (acceptCharset != null) {
-                    a.setAcceptCharset(acceptCharset.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAcceptCharset(acceptCharset.getIsFirst() ? new SharpBindings.Cell(function () {
                         return acceptCharset.getFirst();
-                    }, na) : new HtmlUtils.Cell(acceptCharset.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(acceptCharset.getSecond(), watch));
                 }
                 if (action != null) {
-                    a.setAction(action.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAction(action.getIsFirst() ? new SharpBindings.Cell(function () {
                         return action.getFirst();
-                    }, na) : new HtmlUtils.Cell(action.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(action.getSecond(), watch));
                 }
                 if (autoComplete != null) {
-                    a.setAutoComplete(autoComplete.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAutoComplete(autoComplete.getIsFirst() ? new SharpBindings.Cell(function () {
                         return autoComplete.getFirst();
-                    }, na) : new HtmlUtils.Cell(autoComplete.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(autoComplete.getSecond(), watch));
                 }
                 if (encoding != null) {
-                    a.setEncoding(encoding.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setEncoding(encoding.getIsFirst() ? new SharpBindings.Cell(function () {
                         return encoding.getFirst();
-                    }, na) : new HtmlUtils.Cell(encoding.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(encoding.getSecond(), watch));
                 }
                 if (enctype != null) {
-                    a.setEnctype(enctype.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setEnctype(enctype.getIsFirst() ? new SharpBindings.Cell(function () {
                         return enctype.getFirst();
-                    }, na) : new HtmlUtils.Cell(enctype.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(enctype.getSecond(), watch));
                 }
                 if (method != null) {
-                    a.setMethod(method.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMethod(method.getIsFirst() ? new SharpBindings.Cell(function () {
                         return method.getFirst();
-                    }, na) : new HtmlUtils.Cell(method.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(method.getSecond(), watch));
                 }
                 if (noValidate != null) {
-                    a.setNoValidate(noValidate.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setNoValidate(noValidate.getIsFirst() ? new SharpBindings.Cell(function () {
                         return noValidate.getFirst();
-                    }, na) : new HtmlUtils.Cell(noValidate.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(noValidate.getSecond(), watch));
                 }
                 if (crossOrigin != null) {
-                    a.setCrossOrigin(crossOrigin.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCrossOrigin(crossOrigin.getIsFirst() ? new SharpBindings.Cell(function () {
                         return crossOrigin.getFirst();
-                    }, na) : new HtmlUtils.Cell(crossOrigin.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(crossOrigin.getSecond(), watch));
                 }
                 if (imageHeight != null) {
-                    a.setImageHeight(imageHeight.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setImageHeight(imageHeight.getIsFirst() ? new SharpBindings.Cell(function () {
                         return imageHeight.getFirst();
-                    }, na) : new HtmlUtils.Cell(imageHeight.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(imageHeight.getSecond(), watch));
                 }
                 if (isMap != null) {
-                    a.setIsMap(isMap.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIsMap(isMap.getIsFirst() ? new SharpBindings.Cell(function () {
                         return isMap.getFirst();
-                    }, na) : new HtmlUtils.Cell(isMap.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(isMap.getSecond(), watch));
                 }
                 if (src != null) {
-                    a.setSrc(src.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSrc(src.getIsFirst() ? new SharpBindings.Cell(function () {
                         return src.getFirst();
-                    }, na) : new HtmlUtils.Cell(src.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(src.getSecond(), watch));
                 }
                 if (srcSet != null) {
-                    a.setSrcSet(srcSet.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSrcSet(srcSet.getIsFirst() ? new SharpBindings.Cell(function () {
                         return srcSet.getFirst();
-                    }, na) : new HtmlUtils.Cell(srcSet.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(srcSet.getSecond(), watch));
                 }
                 if (useMap != null) {
-                    a.setUseMap(useMap.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setUseMap(useMap.getIsFirst() ? new SharpBindings.Cell(function () {
                         return useMap.getFirst();
-                    }, na) : new HtmlUtils.Cell(useMap.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(useMap.getSecond(), watch));
                 }
                 if (imageWidth != null) {
-                    a.setImageWidth(imageWidth.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setImageWidth(imageWidth.getIsFirst() ? new SharpBindings.Cell(function () {
                         return imageWidth.getFirst();
-                    }, na) : new HtmlUtils.Cell(imageWidth.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(imageWidth.getSecond(), watch));
                 }
                 if (accept != null) {
-                    a.setAccept(accept.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAccept(accept.getIsFirst() ? new SharpBindings.Cell(function () {
                         return accept.getFirst();
-                    }, na) : new HtmlUtils.Cell(accept.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(accept.getSecond(), watch));
                 }
                 if (alt != null) {
-                    a.setAlt(alt.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAlt(alt.getIsFirst() ? new SharpBindings.Cell(function () {
                         return alt.getFirst();
-                    }, na) : new HtmlUtils.Cell(alt.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(alt.getSecond(), watch));
                 }
                 if (autoSave != null) {
-                    a.setAutoSave(autoSave.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAutoSave(autoSave.getIsFirst() ? new SharpBindings.Cell(function () {
                         return autoSave.getFirst();
-                    }, na) : new HtmlUtils.Cell(autoSave.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(autoSave.getSecond(), watch));
                 }
                 if (checked_ != null) {
-                    a.setChecked(checked_.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setChecked(checked_.getIsFirst() ? new SharpBindings.Cell(function () {
                         return checked_.getFirst();
-                    }, na) : new HtmlUtils.Cell(checked_.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(checked_.getSecond(), watch));
                 }
                 if (defaultChecked != null) {
-                    a.setDefaultChecked(defaultChecked.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDefaultChecked(defaultChecked.getIsFirst() ? new SharpBindings.Cell(function () {
                         return defaultChecked.getFirst();
-                    }, na) : new HtmlUtils.Cell(defaultChecked.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(defaultChecked.getSecond(), watch));
                 }
                 if (defaultValue != null) {
-                    a.setDefaultValue(defaultValue.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDefaultValue(defaultValue.getIsFirst() ? new SharpBindings.Cell(function () {
                         return defaultValue.getFirst();
-                    }, na) : new HtmlUtils.Cell(defaultValue.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(defaultValue.getSecond(), watch));
                 }
                 if (indeterminate != null) {
-                    a.setIndeterminate(indeterminate.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIndeterminate(indeterminate.getIsFirst() ? new SharpBindings.Cell(function () {
                         return indeterminate.getFirst();
-                    }, na) : new HtmlUtils.Cell(indeterminate.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(indeterminate.getSecond(), watch));
                 }
                 //if (list != null)
                 //{
                 //    a.List = list.IsFirst ? new Cell(() => list.First, na) : new Cell((Func<object>)(object)list.Second, watch);
                 //}
                 if (max != null) {
-                    a.setMax(max.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMax(max.getIsFirst() ? new SharpBindings.Cell(function () {
                         return max.getFirst();
-                    }, na) : new HtmlUtils.Cell(max.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(max.getSecond(), watch));
                 }
                 if (maxLength != null) {
-                    a.setMaxLength(maxLength.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMaxLength(maxLength.getIsFirst() ? new SharpBindings.Cell(function () {
                         return maxLength.getFirst();
-                    }, na) : new HtmlUtils.Cell(maxLength.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(maxLength.getSecond(), watch));
                 }
                 if (min != null) {
-                    a.setMin(min.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMin(min.getIsFirst() ? new SharpBindings.Cell(function () {
                         return min.getFirst();
-                    }, na) : new HtmlUtils.Cell(min.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(min.getSecond(), watch));
                 }
                 if (multiple != null) {
-                    a.setMultiple(multiple.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setMultiple(multiple.getIsFirst() ? new SharpBindings.Cell(function () {
                         return multiple.getFirst();
-                    }, na) : new HtmlUtils.Cell(multiple.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(multiple.getSecond(), watch));
                 }
                 if (pattern != null) {
-                    a.setPattern(pattern.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setPattern(pattern.getIsFirst() ? new SharpBindings.Cell(function () {
                         return pattern.getFirst();
-                    }, na) : new HtmlUtils.Cell(pattern.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(pattern.getSecond(), watch));
                 }
                 if (placeholder != null) {
-                    a.setPlaceholder(placeholder.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setPlaceholder(placeholder.getIsFirst() ? new SharpBindings.Cell(function () {
                         return placeholder.getFirst();
-                    }, na) : new HtmlUtils.Cell(placeholder.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(placeholder.getSecond(), watch));
                 }
                 if (readOnly != null) {
-                    a.setReadOnly(readOnly.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setReadOnly(readOnly.getIsFirst() ? new SharpBindings.Cell(function () {
                         return readOnly.getFirst();
-                    }, na) : new HtmlUtils.Cell(readOnly.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(readOnly.getSecond(), watch));
                 }
                 if (required != null) {
-                    a.setRequired(required.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setRequired(required.getIsFirst() ? new SharpBindings.Cell(function () {
                         return required.getFirst();
-                    }, na) : new HtmlUtils.Cell(required.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(required.getSecond(), watch));
                 }
                 if (selectionDirection != null) {
-                    a.setSelectionDirection(selectionDirection.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSelectionDirection(selectionDirection.getIsFirst() ? new SharpBindings.Cell(function () {
                         return selectionDirection.getFirst();
-                    }, na) : new HtmlUtils.Cell(selectionDirection.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(selectionDirection.getSecond(), watch));
                 }
                 if (selectionEnd != null) {
-                    a.setSelectionEnd(selectionEnd.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSelectionEnd(selectionEnd.getIsFirst() ? new SharpBindings.Cell(function () {
                         return selectionEnd.getFirst();
-                    }, na) : new HtmlUtils.Cell(selectionEnd.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(selectionEnd.getSecond(), watch));
                 }
                 if (selectionStart != null) {
-                    a.setSelectionStart(selectionStart.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSelectionStart(selectionStart.getIsFirst() ? new SharpBindings.Cell(function () {
                         return selectionStart.getFirst();
-                    }, na) : new HtmlUtils.Cell(selectionStart.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(selectionStart.getSecond(), watch));
                 }
                 if (step != null) {
-                    a.setStep(step.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setStep(step.getIsFirst() ? new SharpBindings.Cell(function () {
                         return step.getFirst();
-                    }, na) : new HtmlUtils.Cell(step.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(step.getSecond(), watch));
                 }
                 if (inputType != null) {
-                    a.setInputType(inputType.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setInputType(inputType.getIsFirst() ? new SharpBindings.Cell(function () {
                         return inputType.getFirst();
-                    }, na) : new HtmlUtils.Cell(inputType.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(inputType.getSecond(), watch));
                 }
                 if (htmlFor != null) {
-                    a.setHtmlFor(htmlFor.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setHtmlFor(htmlFor.getIsFirst() ? new SharpBindings.Cell(function () {
                         return htmlFor.getFirst();
-                    }, na) : new HtmlUtils.Cell(htmlFor.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(htmlFor.getSecond(), watch));
                 }
                 if (allowFullScreen != null) {
-                    a.setAllowFullScreen(allowFullScreen.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAllowFullScreen(allowFullScreen.getIsFirst() ? new SharpBindings.Cell(function () {
                         return allowFullScreen.getFirst();
-                    }, na) : new HtmlUtils.Cell(allowFullScreen.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(allowFullScreen.getSecond(), watch));
                 }
                 if (frameBorder != null) {
-                    a.setFrameBorder(frameBorder.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setFrameBorder(frameBorder.getIsFirst() ? new SharpBindings.Cell(function () {
                         return frameBorder.getFirst();
-                    }, na) : new HtmlUtils.Cell(frameBorder.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(frameBorder.getSecond(), watch));
                 }
                 if (iFrameHeight != null) {
-                    a.setIFrameHeight(iFrameHeight.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIFrameHeight(iFrameHeight.getIsFirst() ? new SharpBindings.Cell(function () {
                         return iFrameHeight.getFirst();
-                    }, na) : new HtmlUtils.Cell(iFrameHeight.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(iFrameHeight.getSecond(), watch));
                 }
                 if (longDesc != null) {
-                    a.setLongDesc(longDesc.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setLongDesc(longDesc.getIsFirst() ? new SharpBindings.Cell(function () {
                         return longDesc.getFirst();
-                    }, na) : new HtmlUtils.Cell(longDesc.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(longDesc.getSecond(), watch));
                 }
                 if (iFrameMarginHeight != null) {
-                    a.setIFrameMarginHeight(iFrameMarginHeight.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIFrameMarginHeight(iFrameMarginHeight.getIsFirst() ? new SharpBindings.Cell(function () {
                         return iFrameMarginHeight.getFirst();
-                    }, na) : new HtmlUtils.Cell(iFrameMarginHeight.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(iFrameMarginHeight.getSecond(), watch));
                 }
                 if (iFrameMarginWidth != null) {
-                    a.setIFrameMarginWidth(iFrameMarginWidth.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIFrameMarginWidth(iFrameMarginWidth.getIsFirst() ? new SharpBindings.Cell(function () {
                         return iFrameMarginWidth.getFirst();
-                    }, na) : new HtmlUtils.Cell(iFrameMarginWidth.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(iFrameMarginWidth.getSecond(), watch));
                 }
                 if (scrolling != null) {
-                    a.setScrolling(scrolling.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setScrolling(scrolling.getIsFirst() ? new SharpBindings.Cell(function () {
                         return scrolling.getFirst();
-                    }, na) : new HtmlUtils.Cell(scrolling.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(scrolling.getSecond(), watch));
                 }
                 if (seamless != null) {
-                    a.setSeamless(seamless.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSeamless(seamless.getIsFirst() ? new SharpBindings.Cell(function () {
                         return seamless.getFirst();
-                    }, na) : new HtmlUtils.Cell(seamless.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(seamless.getSecond(), watch));
                 }
                 if (srcDoc != null) {
-                    a.setSrcDoc(srcDoc.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSrcDoc(srcDoc.getIsFirst() ? new SharpBindings.Cell(function () {
                         return srcDoc.getFirst();
-                    }, na) : new HtmlUtils.Cell(srcDoc.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(srcDoc.getSecond(), watch));
                 }
                 if (iFrameWidth != null) {
-                    a.setIFrameWidth(iFrameWidth.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setIFrameWidth(iFrameWidth.getIsFirst() ? new SharpBindings.Cell(function () {
                         return iFrameWidth.getFirst();
-                    }, na) : new HtmlUtils.Cell(iFrameWidth.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(iFrameWidth.getSecond(), watch));
                 }
                 if (label != null) {
-                    a.setLabel(label.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setLabel(label.getIsFirst() ? new SharpBindings.Cell(function () {
                         return label.getFirst();
-                    }, na) : new HtmlUtils.Cell(label.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(label.getSecond(), watch));
                 }
                 if (defaultSelected != null) {
-                    a.setDefaultSelected(defaultSelected.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDefaultSelected(defaultSelected.getIsFirst() ? new SharpBindings.Cell(function () {
                         return defaultSelected.getFirst();
-                    }, na) : new HtmlUtils.Cell(defaultSelected.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(defaultSelected.getSecond(), watch));
                 }
                 if (disable != null) {
-                    a.setDisable(disable.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setDisable(disable.getIsFirst() ? new SharpBindings.Cell(function () {
                         return disable.getFirst();
-                    }, na) : new HtmlUtils.Cell(disable.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(disable.getSecond(), watch));
                 }
                 if (selected != null) {
-                    a.setSelected(selected.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSelected(selected.getIsFirst() ? new SharpBindings.Cell(function () {
                         return selected.getFirst();
-                    }, na) : new HtmlUtils.Cell(selected.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(selected.getSecond(), watch));
                 }
                 if (selectedIndex != null) {
-                    a.setSelectedIndex(selectedIndex.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSelectedIndex(selectedIndex.getIsFirst() ? new SharpBindings.Cell(function () {
                         return selectedIndex.getFirst();
-                    }, na) : new HtmlUtils.Cell(selectedIndex.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(selectedIndex.getSecond(), watch));
                 }
                 if (size != null) {
-                    a.setSize(size.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSize(size.getIsFirst() ? new SharpBindings.Cell(function () {
                         return size.getFirst();
-                    }, na) : new HtmlUtils.Cell(size.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(size.getSecond(), watch));
                 }
                 if (cols != null) {
-                    a.setCols(cols.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCols(cols.getIsFirst() ? new SharpBindings.Cell(function () {
                         return cols.getFirst();
-                    }, na) : new HtmlUtils.Cell(cols.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(cols.getSecond(), watch));
                 }
                 if (rows != null) {
-                    a.setRows(rows.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setRows(rows.getIsFirst() ? new SharpBindings.Cell(function () {
                         return rows.getFirst();
-                    }, na) : new HtmlUtils.Cell(rows.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(rows.getSecond(), watch));
                 }
                 if (wrap != null) {
-                    a.setWrap(wrap.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setWrap(wrap.getIsFirst() ? new SharpBindings.Cell(function () {
                         return wrap.getFirst();
-                    }, na) : new HtmlUtils.Cell(wrap.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(wrap.getSecond(), watch));
                 }
                 if (span != null) {
-                    a.setSpan(span.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setSpan(span.getIsFirst() ? new SharpBindings.Cell(function () {
                         return span.getFirst();
-                    }, na) : new HtmlUtils.Cell(span.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(span.getSecond(), watch));
                 }
                 if (colSpan != null) {
-                    a.setColSpan(colSpan.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setColSpan(colSpan.getIsFirst() ? new SharpBindings.Cell(function () {
                         return colSpan.getFirst();
-                    }, na) : new HtmlUtils.Cell(colSpan.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(colSpan.getSecond(), watch));
                 }
                 if (rowSpan != null) {
-                    a.setRowSpan(rowSpan.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setRowSpan(rowSpan.getIsFirst() ? new SharpBindings.Cell(function () {
                         return rowSpan.getFirst();
-                    }, na) : new HtmlUtils.Cell(rowSpan.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(rowSpan.getSecond(), watch));
                 }
                 if (cellIndex != null) {
-                    a.setCellIndex(cellIndex.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCellIndex(cellIndex.getIsFirst() ? new SharpBindings.Cell(function () {
                         return cellIndex.getFirst();
-                    }, na) : new HtmlUtils.Cell(cellIndex.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(cellIndex.getSecond(), watch));
                 }
                 if (abbr != null) {
-                    a.setAbbr(abbr.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setAbbr(abbr.getIsFirst() ? new SharpBindings.Cell(function () {
                         return abbr.getFirst();
-                    }, na) : new HtmlUtils.Cell(abbr.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(abbr.getSecond(), watch));
                 }
                 if (caption != null) {
-                    a.setCaption(caption.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setCaption(caption.getIsFirst() ? new SharpBindings.Cell(function () {
                         return caption.getFirst();
-                    }, na) : new HtmlUtils.Cell(caption.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(caption.getSecond(), watch));
                 }
                 if (tHead != null) {
-                    a.setTHead(tHead.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setTHead(tHead.getIsFirst() ? new SharpBindings.Cell(function () {
                         return tHead.getFirst();
-                    }, na) : new HtmlUtils.Cell(tHead.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(tHead.getSecond(), watch));
                 }
                 if (tFoot != null) {
-                    a.setTFoot(tFoot.getIsFirst() ? new HtmlUtils.Cell(function () {
+                    a.setTFoot(tFoot.getIsFirst() ? new SharpBindings.Cell(function () {
                         return tFoot.getFirst();
-                    }, na) : new HtmlUtils.Cell(tFoot.getSecond(), watch));
+                    }, na) : new SharpBindings.Cell(tFoot.getSecond(), watch));
                 }
 
                 a.setTrigger(trigger);
@@ -1713,7 +1713,7 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
         },
         $main: function () {
 
-            var todos = new (HtmlUtils.ObservableCollection$1(TodoMVC.Todo))();
+            var todos = new (SharpBindings.ObservableCollection$1(TodoMVC.Todo))();
 
             var activeCount = function () {
                 return System.Linq.Enumerable.from(todos).where($asm.$.TodoMVC.App.f3).count();
@@ -1733,9 +1733,9 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
                 setIsHidden: $asm.$.TodoMVC.App.f3
             } )], TodoMVC.FilterUrl);
 
-            var currentFilter = new (HtmlUtils.Var$1(TodoMVC.FilterUrl))(filters[0]);
+            var currentFilter = new (SharpBindings.Var$1(TodoMVC.FilterUrl))(filters[0]);
 
-            var url = HtmlUtils.HtmlUtil.getRouting().map(function (hash) {
+            var url = SharpBindings.HtmlUtil.getRouting().map(function (hash) {
                 return System.Linq.Enumerable.from(filters).firstOrDefault(function (a) {
                         return System.String.contains(hash,a.getHash());
                     }, null);
@@ -1757,7 +1757,7 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
 
             var footer = TodoMVC.App.footerSection(todos, activeCount, filters, urlTrigger);
 
-            var section = HtmlUtils.HtmlUtil.section(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit$1("todoapp"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [header, mainSection, footer, HtmlUtils.HtmlUtil.footer(TodoMVC.App.__$1(HtmlUtils.AnyString.op_Implicit$1("info"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [HtmlUtils.HtmlUtil.p(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("Double-click to edit a todo"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0)), HtmlUtils.HtmlUtil.p(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("Written by "), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [HtmlUtils.HtmlUtil.a(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("https://github.com/muigai-mwaura"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("Muigai Mwaura"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0))]), HtmlUtils.HtmlUtil.p(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("*Not* part of "), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [HtmlUtils.HtmlUtil.a(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("http://todomvc.com"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, HtmlUtils.AnyString.op_Implicit$1("TodoMVC"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0))])])]);
+            var section = SharpBindings.HtmlUtil.section(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit$1("todoapp"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [header, mainSection, footer, SharpBindings.HtmlUtil.footer(TodoMVC.App.__$1(SharpBindings.AnyString.op_Implicit$1("info"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [SharpBindings.HtmlUtil.p(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("Double-click to edit a todo"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0)), SharpBindings.HtmlUtil.p(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("Written by "), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [SharpBindings.HtmlUtil.a(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("https://github.com/muigai-mwaura"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("Muigai Mwaura"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0))]), SharpBindings.HtmlUtil.p(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("*Not* part of "), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0), [SharpBindings.HtmlUtil.a(TodoMVC.App.__$1(void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("http://todomvc.com"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, SharpBindings.AnyString.op_Implicit$1("TodoMVC"), void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0, void 0))])])]);
 
             // Add the container to the page
             document.body.appendChild(section);
@@ -1803,7 +1803,7 @@ Bridge.assembly("Aurelia", function ($asm, globals) {
         inherits: [System.ComponentModel.INotifyPropertyChanged],
         statics: {
             op_Implicit: function (toDo) {
-                return HtmlUtils.HtmlUtil.toObservable(toDo);
+                return SharpBindings.HtmlUtil.toObservable(toDo);
             }
         },
         description: null,
