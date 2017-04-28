@@ -1,4 +1,4 @@
-Bridge.assembly("Aurelia", function ($asm, globals) {
+Bridge.assembly("TodoMVC", function ($asm, globals) {
     "use strict";
 
     Bridge.define("TodoMVC.App", {

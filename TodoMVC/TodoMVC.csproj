@@ -13,8 +13,8 @@
     <ProjectGuid>{FA59C2D3-6122-48FA-8D23-1DA2B6376766}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Aurelia</RootNamespace>
-    <AssemblyName>Aurelia</AssemblyName>
+    <RootNamespace>TodoMVC</RootNamespace>
+    <AssemblyName>TodoMVC</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,9 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bridge\output\base.css" />
+    <Content Include="Bridge\output\bridge.min.js" />
     <Content Include="Bridge\output\index.css" />
-    <Content Include="Bridge\output\cell.js" />
     <Content Include="Bridge\output\readme.txt" />
+    <Content Include="Bridge\output\sharpBindings.js" />
+    <Content Include="Bridge\output\todoMVC.js" />
     <Content Include="Bridge\www\demo.html" />
   </ItemGroup>
   <ItemGroup>
